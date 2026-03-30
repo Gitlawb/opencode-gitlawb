@@ -1,5 +1,5 @@
 {
-  "name": "opencode-gitlawb",
+  "name": "@gitlawb/opencode",
   "version": "0.1.0",
   "description": "Gitlawb plugin for OpenCode — decentralized git tools for AI agents",
   "type": "module",
@@ -32,9 +32,13 @@
     "ucan"
   ],
   "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nicepkg/opencode-gitlawb"
+    "url": "https://github.com/Gitlawb/opencode-gitlawb"
   },
   "peerDependencies": {
     "@opencode-ai/plugin": ">=0.1.0"

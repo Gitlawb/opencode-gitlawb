@@ -6,7 +6,7 @@ Gitlawb plugin for [OpenCode](https://opencode.ai) — decentralized git tools f
 
 ```json
 {
-  "plugin": ["opencode-gitlawb"]
+  "plugin": ["@gitlawb/opencode"]
 }
 ```
 
@@ -68,7 +68,7 @@ Pass options via `opencode.json`:
 ```json
 {
   "plugin": [
-    ["opencode-gitlawb", {
+    ["@gitlawb/opencode", {
       "nodeUrl": "https://node.gitlawb.com"
     }]
   ]
