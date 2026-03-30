@@ -1,0 +1,48 @@
+{
+  "name": "opencode-gitlawb",
+  "version": "0.1.0",
+  "description": "Gitlawb plugin for OpenCode — decentralized git tools for AI agents",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "gitlawb",
+    "git",
+    "decentralized",
+    "ai-agents",
+    "did",
+    "ucan"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nicepkg/opencode-gitlawb"
+  },
+  "peerDependencies": {
+    "@opencode-ai/plugin": ">=0.1.0"
+  },
+  "devDependencies": {
+    "@opencode-ai/plugin": "latest",
+    "@types/bun": "^1.3.11",
+    "typescript": "^5.7.0",
+    "zod": "^3.24.0"
+  }
+}
